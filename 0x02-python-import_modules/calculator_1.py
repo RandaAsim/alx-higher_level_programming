@@ -25,14 +25,14 @@ def sub(a, b):
     return (a - b)
 
 def mul(a, b):
-"""My multiplication function
+    """My multiplication function
 
-Args:
+    Args:
     a: first integer
     b: second integer
 
     Returns:
-    the return value. a * b
+    The return value. a * b
     """
     return (a * b)
 
