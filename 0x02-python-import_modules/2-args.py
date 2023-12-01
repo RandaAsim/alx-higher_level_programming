@@ -4,9 +4,7 @@ a = 10
 b = 5
 
 if __name__ == "__main__":
-
     from sys import argv
-
     x = len(argv)
     if x == 1:
         print("0 arguments.")
@@ -17,5 +15,5 @@ if __name__ == "__main__":
             print("argument:")
         else:
             print("arguments:")
-            for i in range(1, len(argv)):
-                print("{}: {}".format(i, argv[i]))
+        for i in range(1, len(argv)):
+            print("{}: {}".format(i, argv[i]))
