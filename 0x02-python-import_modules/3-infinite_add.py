@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-r = 10
-n = 5
-sum = 0
 if __name__ == "__main__":
     from sys import argv
     for i in range(1, len(argv)):
